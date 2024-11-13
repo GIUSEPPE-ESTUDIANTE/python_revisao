@@ -1,8 +1,9 @@
 numeros = []
-for _ in range(5):
-    numero = float(input("Digite um número: "))
+for _ in range(0,5):
+    numero = int(input("Digite um número: "))
     numeros.append(numero)
 
+# variavel d a soma
 soma = sum(numeros)
 media = soma / 5
 
